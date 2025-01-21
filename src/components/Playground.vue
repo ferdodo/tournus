@@ -30,8 +30,8 @@ const store = useRotationsStore();
 		grid-column-gap: 0px;
 		grid-row-gap: 0px;
 		height: 100 vh;
-		border: 1px solid yellow;
 		width: 100vw;
+		max-width: 80vh;
 	}
 
 	.disc-6 {
