@@ -15,8 +15,6 @@ export const useRotationsStore = defineStore("rotations", () => {
 
 	const wheelOrder = randomizeArray([1, 2, 3, 4, 5, 6]);
 
-	console.log({ wheelOrder });
-
 	function getRandomizedWheelIndex(originalIndex: number): number {
 		return wheelOrder[originalIndex];
 	}
