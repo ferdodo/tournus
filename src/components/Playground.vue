@@ -6,7 +6,7 @@ const store = useRotationsStore();
 </script>
 
 <template>
-	<h1>Reconsituez le disque noir dans la parie supérieure de l'écran</h1>
+	<h1>Reconstituez le disque noir dans la parie supérieure de l'écran</h1>
 
 	<div v-if="!store.win" class="disc-container">
 		<Disc class="disc-6" :size="6" color="purple"/>
