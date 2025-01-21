@@ -48,10 +48,10 @@ function rebuild {
 function print_startup {
 	echo ""
 	echo "╭──────────────────────────────────────────────────╮"
-	echo "│ Tournus: http://localhost:8080                   │"
+	echo "│ Tournus: http://localhost:5173                   │"
 	echo "│                                                  │"
 	echo "│ Live feedback:                                   │"
-	echo "│   docker compose logs -f --no-log-prefix tournus │"
+	echo "│   docker compose logs -f --no-log-prefix main    │"
 	echo "╰──────────────────────────────────────────────────╯"
 }
 

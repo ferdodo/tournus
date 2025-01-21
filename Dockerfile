@@ -7,4 +7,4 @@ RUN npm audit --audit-level=moderate
 
 COPY . .
 RUN npm run build
-RUN npm run dev
+CMD npm run dev
