@@ -3,11 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"type": "module",
-	"keywords": [
-		"game",
-		"procedural",
-		"puzzle"
-	],
+	"keywords": ["game", "procedural", "puzzle"],
 	"author": "Thomas Riffard",
 	"license": "MIT",
 	"description": "Small daily puzzle game",
@@ -15,7 +11,7 @@
 		"dev": "vite --host",
 		"build": "run-p type-check \"build-only {@}\" --",
 		"preview": "vite preview",
-		"build-only": "vite build",
+		"build-only": "vite build --base ./",
 		"type-check": "vue-tsc --build"
 	},
 	"dependencies": {
